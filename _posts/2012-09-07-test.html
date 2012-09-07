@@ -24,6 +24,12 @@
       </ul>
     </nav>
  
+<p>最新文章</p>
+<ul>
+{% for post in site.posts %}
+<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
     <p>test</p> 
     <footer>
       <p>@copy; 张郎老帅了. </p>
