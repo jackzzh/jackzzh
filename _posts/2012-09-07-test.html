@@ -1,42 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} 江湖在喝酒的路上 </title>
-  <link rel="stylesheet" href="/css/styles.css" />
-</head>
-<body>
- 
-  <div id="main">
- 
-    <header>
-      <h1> 江湖在喝酒的路上 </h1>
-    <header>
- 
-    <nav role="navigation">
-      <ul>
-        <li><a href="http://jackzzh.github.com/jackzzh">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="http://blog.sina.com.cn/zzh250">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
- 
-<p>最新文章</p>
-<ul>
-{% for post in site.posts %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
     <p>test</p> 
-    <footer>
-      <p>@copy; 张郎老帅了. </p>
-    </footer>
- 
-  </div>
-</body>
-</html>
 
 
