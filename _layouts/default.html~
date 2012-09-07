@@ -4,7 +4,7 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} 江湖在喝酒的路上 </title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
   <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
@@ -27,7 +27,7 @@
     {{ content }}
  
     <footer>
-      <p>@copy; 张郎老帅了. </p>
+      <p>@copy; . </p>
     </footer>
  
   </div>
