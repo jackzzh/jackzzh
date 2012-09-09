@@ -1,0 +1,80 @@
+---
+layout: default
+title: 联系我
+---
+
+				<div class="post">
+					<div class="post-bgtop">
+						<div class="post-bgbtm">
+							<h2 class="title"><a href="#">联系我</a></h2>
+                            <p class="meta"><span class="date">{{ site.post.date }}</span> {{ site.post.time }} <a href="#">Jack.ZH</a></p>
+                            <div class="entry">
+                                <pre>
+                                很多年陷身芜杂的生活
+                                隐匿于一盏人间烟火
+                                忘掉了岸边柳梢枝头簪着的一枚婉月
+                                忘掉了关照一塘潋滟的青荷
+                                忘掉了夕阳如血冰封的河流
+                                忘掉了远处渺茫似的一曲笙歌
+
+                                当某一天有个人对我说
+                                你是否还记得
+                                一个美丽灵秀的女子的婀娜
+                                一刹那我无端的泪流满面 、、、
+                                我这一生用粗糙于掌心握住的绳索
+                                我这一世即将沉没于皱褶的眼波
+                                一句话犹如一艘兰舟渡我离岸
+                                垂首凝视水中自己的倒影泪眼婆娑
+                                犹记那个女子杏花的笑靥
+                                苹果一样的心灵哦
+
+                                为着感激这不经意的低首
+                                我开始怀揣一阕悲伤的词行走
+                                与胡马越鸟倾心长谈
+                                如影如歌 冬夏春秋！
+
+                                </pre>
+<pre class="brush: python">
+def launch(port):
+    application.listen(port)
+    logger.info('Server started on %s' % port)
+    tornado.ioloop.IOLoop.instance().start()
+
+
+def start_random_warn():
+    logger.info('Fake warning enabled!')
+    from threading import Thread
+    import utils.fake_warning
+    td = Thread(target=utils.fake_warning.run)
+    td.daemon = True
+    td.start()
+
+
+def pre_init():
+    from db import connection
+    if not connection.Config.get('Algorithm'):
+        connection.Config.set('Algorithm', Algorithm)
+    server.Application.startup()
+
+
+if __name__ == '__main__':
+    if 'fake_warning' in sys.argv:
+        start_random_warn()
+    port = options.web_server_port
+    argv = sys.argv
+    if len(argv) > 1:
+        p = argv[1]
+        if p.isdigit():
+            port = int(p)
+    pre_init()
+    launch(port)
+
+</pre>
+    
+  
+							</div>
+						</div>
+					</div>
+				</div>
+
+
