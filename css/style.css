@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	background: #191919 url(/jackzzh/images/img07.jpg) no-repeat right top;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 11px;
+	font-size: 13px;
 	color: #3C3C3C;
 }
 
@@ -298,7 +298,7 @@ hr {
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 13px;
 	color: #66665E;
 }
 
@@ -314,9 +314,6 @@ hr {
 	padding: 10px 0px 0px 0px;
 }
 
-.entry {
-	font-size: 16px;
-}
 .post .comments {
 	display: block;
 	width: 120px;
@@ -327,7 +324,7 @@ hr {
 	border: 1px solid #5F817E;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	font-size: 13px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -476,8 +473,17 @@ hr {
 	padding: 30px 0px 0px 0px;
 	text-align: center;
 	line-height: normal;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 #footer a {
 }
+
+pre, code {
+   display: block;
+   overflow: auto;
+   background: #f4f4f4;
+   padding: 5px 10px;
+   border: 1px solid #eee;
+   word-wrap:break-word; /* Internet Explorer 5.5+ */
+}                                    
