@@ -479,7 +479,7 @@ hr {
 #footer a {
 }
 
-pre, code {
+.preclass {
    display: block;
    overflow: auto;
    background: #f4f4f4;
