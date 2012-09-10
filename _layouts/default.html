@@ -15,12 +15,13 @@ title: 江湖在喝酒的路上
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"></script>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCpp.js"></script>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css" />
 <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
         SyntaxHighlighter.config.clipboardSwf = 'http://alexgorbatchev.com/pub/sh/current/scripts/clipboard.swf';
-            SyntaxHighlighter.all();
-        </script>
+        SyntaxHighlighter.all();
+</script>
 </head>
 <body>
 <div id="logo">
@@ -32,8 +33,20 @@ title: 江湖在喝酒的路上
 <div id="page">
 	<div id="page-bgtop">
 		<div id="page-bgbtm">
-			<div id="content">
-            {{ content }}
+            <div id="content">
+				<div class="post">
+					<div class="post-bgtop">
+						<div class="post-bgbtm">
+							<h2 class="title"><a id="titleid" href="#">TITLE</a></h2>
+                            <p class="meta"><span class="date">{{ site.post.date }}</span> {{ site.post.time }} <a href="#">Jack.ZH</a></p>
+                            <div class="entry">
+
+                                {{ content }}
+  
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div id="sidebar">
 				<ul>
@@ -56,4 +69,8 @@ title: 江湖在喝酒的路上
 </div>
 <!-- end #footer -->
 </body>
+<script type="text/javascript">
+    $("#fortitle").hide()
+    $("#titleid").html($("#fortitle").html())
+</script>
 </html>
