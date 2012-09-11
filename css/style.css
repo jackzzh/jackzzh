@@ -92,7 +92,7 @@ hr {
 /* Header */
 
 #header {
-	width: 950px;
+	width: 1050px;
 	height: 70px;
 	margin: 0px auto;
 }
@@ -191,7 +191,7 @@ hr {
 /* Page */
 
 #page {
-	width: 930px;
+	width: 1030px;
 	margin: 0px auto;
 	padding: 10px 10px 10px 10px;
 	background: #E1E1E1;
@@ -207,7 +207,7 @@ hr {
 /** LOGO */
 
 #logo {
-	width: 950px;
+	width: 1050px;
 	height: 135px;
 	margin: 0 auto;
 	background: url(/jackzzh/images/img.png) no-repeat left top;
@@ -232,7 +232,7 @@ hr {
 
 #content {
 	float: right;
-	width: 620px;
+	width: 720px;
 	padding: 0px 0px 0px 0px;
 }
 
@@ -437,7 +437,7 @@ hr {
 /* Footer */
 
 #footer {
-	width: 920px;
+	width: 1020px;
 	height: 100px;
 	margin: 0 auto;
 	padding: 0;
