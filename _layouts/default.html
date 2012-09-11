@@ -87,19 +87,18 @@ title: 江湖在喝酒的路上
 </body>
 <script type="text/javascript">
 $(".addimg").each(function(){
-html = "<a class='aimg' href='"+this.id+"'><img class='imga' src='"+this.id+"' ></img></a>"
-$(this).html(html)
+        html = "<a class='aimg' href='"+this.id+"'><img class='imga' src='"+this.id+"' ></img></a>"
+        $(this).html(html)
+        imga = $(this).find(".imga")
+         if(imga){
+               wt = (imga.width())
+               ht = (imga.height())
+               if (wt > 600)
+               {
+                      imga.width(600)
+                }
+           }
 });
-
-imga = $(".imga")
-if(imga){
-  wt = (imga.width())
-  ht = (imga.height())
-  if (wt > 550)
-  {
-    imga.width(550)
-  }
-}
     $("#fortitle").hide()
     $("#titleid").html($("#fortitle").html())
 </script>
