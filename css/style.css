@@ -214,9 +214,6 @@ hr {
 }
 
 #logo a, #logo p {
-	line-height: normal;
-	text-transform: lowercase;
-	font-weight: normal;
 	color: #000000;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
