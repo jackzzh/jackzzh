@@ -214,7 +214,6 @@ hr {
 }
 
 #logo a, #logo p {
-	margin: 0px;
 	line-height: normal;
 	text-transform: lowercase;
 	font-weight: normal;
