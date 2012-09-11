@@ -45,7 +45,7 @@ blockquote {
 }
 
 a {
-	color: #CD3788;
+	color: #424242;
 }
 
 a:hover {
@@ -118,7 +118,7 @@ hr {
 	display: block;
 	float: left;
 	height: 28px;
-	background: #CD3788;
+	background: #424242;
 	margin-right: 3px;
 	padding: 8px 30px 0px 35px;
 	letter-spacing: -1px;
@@ -223,7 +223,7 @@ hr {
 
 #logo p {
 	margin-top: -4px;
-	padding: 500px 0px 0px 0px;
+	padding: 10px 0px 0px 500px;
 	text-transform: lowercase;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
@@ -231,7 +231,7 @@ hr {
 }
 
 #logo a {
-	padding: 30px 0px 0px 0px;
+	padding: 10px 0px 0px 100px;
 	letter-spacing: -1px;
 	font-size: 48px;
 }
@@ -363,7 +363,7 @@ hr {
 }
 
 #sidebar li li a:hover {
-	color: #CD3788;
+	color: #424242;
 }
 
 #sidebar p {
@@ -380,7 +380,7 @@ hr {
 	text-transform: lowercase;
 	font-size: 24px;
 	font-weight: normal;
-	color: #CD3788;
+	color: #424242;
 }
 
 #sidebar p {
