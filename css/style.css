@@ -4,6 +4,9 @@ Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
+a {
+	color: #424242;
+}
 
 body {
 	margin: 20px 0px 0px 0px;
@@ -44,9 +47,6 @@ ul, ol {
 blockquote {
 }
 
-a {
-	color: #424242;
-}
 
 a:hover {
 	text-decoration: none;
@@ -215,7 +215,7 @@ hr {
 
 #logo a, #logo p {
 	margin: 0px;
-	margin-top: -1px;
+	margin-top: -2px;
 	line-height: normal;
 	text-transform: lowercase;
 	font-weight: normal;
@@ -225,16 +225,11 @@ hr {
 }
 
 #logo p {
-	padding: 0px 0px 0px 700px;
+	padding: 0px 0px 0px 670px;
 }
 
 #logo a {
 	padding: 0px 0px 0px 200px;
-}
-
-#logo a {
-	text-decoration: none;
-	color: #000000;
 }
 
 #banner {
