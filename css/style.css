@@ -215,25 +215,21 @@ hr {
 
 #logo a, #logo p {
 	margin: 0px;
+	margin-top: -1px;
 	line-height: normal;
 	text-transform: lowercase;
 	font-weight: normal;
 	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
 }
 
 #logo p {
-	margin-top: -4px;
-	padding: 0px 0px 0px 500px;
-	text-transform: lowercase;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 13px;
-	color: #000000;
+	padding: 0px 0px 0px 700px;
 }
 
 #logo a {
-	padding: 0px 0px 0px 100px;
-	letter-spacing: -1px;
-	font-size: 13px;
+	padding: 0px 0px 0px 200px;
 }
 
 #logo a {
