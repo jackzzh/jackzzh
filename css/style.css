@@ -11,14 +11,14 @@ body {
 	background: #191919 url(/jackzzh/images/img07.jpg) no-repeat right top;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
-	color: #3C3C3C;
+	color: #424242;
 }
 
 h1, h2, h3 {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	color: #CD3788;
+	color: #424242;
 }
 
 h1 {
@@ -182,7 +182,7 @@ hr {
 	height: 28px;
 	margin-left: 10px;
 	padding: 0px 5px;
-	background: url(/jackzzh/images/img03.jpg) no-repeat left top;
+	background: url(/jackzzh/images/img.png) no-repeat left top;
 	border: none;
 	text-indent: -9999px;
 	color: #FFFFFF;
@@ -285,11 +285,11 @@ hr {
 	text-decoration: none;
 	text-transform: lowercase;
 	font-size: 36px;
-	color: #CD3788;
+	color: #424242;
 }
 
 .post .title a:hover {
-	color: #424242;
+	color: #1D3788;
 }
 
 .post .meta {
@@ -299,7 +299,7 @@ hr {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	color: #66665E;
+	color: #424242;
 }
 
 .post .meta span {
