@@ -28,8 +28,6 @@ title: 江湖在喝酒的路上
     .imga{
   border: 1px solid #12e3e3e;
   border-width: 5px 5px 5px 5px;
-  width: 500px;
-  height: 280px;
   }
 </style>
 <script type="text/javascript">
@@ -88,6 +86,15 @@ title: 江湖在喝酒的路上
 <!-- end #footer -->
 </body>
 <script type="text/javascript">
+imga = $(".imga")
+if(imga){
+  wt = (imga.width())
+  ht = (imga.height())
+  if (wt > 600)
+  {
+    imga.width(600)
+  }
+}
     $("#fortitle").hide()
     $("#titleid").html($("#fortitle").html())
 </script>
