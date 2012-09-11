@@ -224,13 +224,11 @@ hr {
 }
 
 #logo p {
-	margin-top: -4px;
 	padding: 0px 0px 0px 670px;
 }
 
 #logo a {
-	margin-top: 4px;
-	padding: 2px 0px 0px 200px;
+	padding: 12px 0px 0px 200px;
 }
 
 #banner {
