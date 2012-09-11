@@ -215,7 +215,6 @@ hr {
 
 #logo a, #logo p {
 	margin: 0px;
-	margin-top: -2px;
 	line-height: normal;
 	text-transform: lowercase;
 	font-weight: normal;
@@ -225,6 +224,7 @@ hr {
 }
 
 #logo p {
+	margin-top: -4px;
 	padding: 0px 0px 0px 670px;
 }
 
