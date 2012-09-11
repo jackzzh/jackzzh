@@ -90,10 +90,10 @@ $(".addimg").each(function(){
         html = "<a class='aimg' href='"+this.id+"'><img class='imga' src='"+this.id+"' ></img></a>"
         $(this).html(html)
       });
+
 function whimg()
 {
-
-imga = $(".imga")
+     imga = $(".imga")
          if(imga){
                wt = (imga.width())
                ht = (imga.height())
@@ -104,7 +104,7 @@ imga = $(".imga")
            }
 }
 setTimeout("whimg()",2000)
-    $("#fortitle").hide()
-    $("#titleid").html($("#fortitle").html())
+$("#fortitle").hide()
+$("#titleid").html($("#fortitle").html())
 </script>
 </html>
