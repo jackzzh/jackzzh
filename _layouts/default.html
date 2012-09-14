@@ -52,7 +52,7 @@ title: 江湖在喝酒的路上
         <div class="post">
           <div class="post-bgtop">
             <div class="post-bgbtm">
-                            <h2 class="title"><a id="titleid" href="#">TITLE</a></h2>
+                <h2 class="title"><a id="titleid" href="#">{{ page.title }}</a></h2>
                             <p class="meta"><span class="date">{{ site.posts.date }}</span> {{ site.posts.time }} <a href="#">Jack.ZH</a></p>
                             <div class="entry">
 
@@ -103,7 +103,7 @@ function whimg()
            }
 }
 setTimeout("whimg()",2000)
-$("#fortitle").hide()
-$("#titleid").html($("#fortitle").html())
+//$("#fortitle").hide()
+//$("#titleid").html($("#fortitle").html())
 </script>
 </html>
