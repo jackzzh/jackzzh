@@ -49,7 +49,7 @@
           <div class="post-bgtop">
             <div class="post-bgbtm">
                 <h2 class="title"><a id="titleid" href="#">{{ page.title }}</a></h2>
-                            <p class="meta"><span class="date">{{ site.date }}</span> {{ site.time }} <a href="#">Jack.ZH</a></p>
+                <p class="meta"> <a href="#">{{ page.author }}</a></p>
                             <div class="entry">
 
                                 {{ content }}
@@ -99,7 +99,8 @@ function whimg()
            }
 }
 setTimeout("whimg()",2000)
-//$("#fortitle").hide()
-//$("#titleid").html($("#fortitle").html())
+$("#fortitle").hide()
+var ht = $(".meta").html()
+$(".meta").html($("#fortitle").html() + ht)
 </script>
 </html>
