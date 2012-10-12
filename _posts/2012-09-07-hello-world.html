@@ -4,6 +4,52 @@ title: 技术路线
 ---
 <p id="fortitle">我的技术路线</p>
 
+Hello {{name}}
+Hello {{user.name}}
+Hello {{ 'tobi' }}
+
+
+{{ matched pairs of curly brackets (ie, braces) }}
+{% matched pairs of curly brackets and percent signs %}
+
+
+Hello {{ 'tobi' | upcase }}
+Hello tobi has {{ 'tobi' | size }} letters!
+Hello {{ '*tobi*' | textilize | upcase }}
+Hello {{ 'now' | date: "%Y %h" }}
+
+    date - reformat a date syntax reference
+    capitalize - capitalize words in the input sentence
+    downcase - convert an input string to lowercase
+    upcase - convert an input string to uppercase
+    first - get the first element of the passed in array
+    last - get the last element of the passed in array
+    join - join elements of the array with certain character between them
+    sort - sort elements of the array
+    map - map/collect an array on a given property
+    size - return the size of an array or string
+    escape - escape a string
+    escape_once - returns an escaped version of html without affecting existing escaped entities
+    strip_html - strip html from string
+    strip_newlines - strip all newlines (\n) from string
+    newline_to_br - replace each newline (\n) with html break
+    replace - replace each occurrence e.g. {{ 'foofoo' | replace:'foo','bar' }} #=> 'barbar'
+    replace_first - replace the first occurrence e.g. {{ 'barbar' | replace_first:'bar','foo' }} #=> 'foobar'
+    remove - remove each occurrence e.g. {{ 'foobarfoobar' | remove:'foo' }} #=> 'barbar'
+    remove_first - remove the first occurrence e.g. {{ 'barbar' | remove_first:'bar' }} #=> 'bar'
+    truncate - truncate a string down to x characters
+    truncatewords - truncate a string down to x words
+    prepend - prepend a string e.g. {{ 'bar' | prepend:'foo' }} #=> 'foobar'
+    append - append a string e.g. {{ 'foo' | append:'bar' }} #=> 'foobar'
+    minus - subtraction e.g. {{ 4 | minus:2 }} #=> 2
+    plus - addition e.g. {{ '1' | plus:'1' }} #=> '11', {{ 1 | plus:1 }} #=> 2
+    times - multiplication e.g {{ 5 | times:4 }} #=> 20
+    divided_by - division e.g. {{ 10 | divided_by:2 }} #=> 5
+    split - split a string on a matching pattern e.g. {{ "a~b" | split:~ }} #=> ['a','b']
+    modulo - remainder, e.g. {{ 3 | modulo:2 }} #=> 1
+                                                                                               divided_by - division e.g. {{ 10 | divided_by:2 }} #=> 5
+                                                                                                                split - split a string on a matching pattern e.g. {{ "a~b" | split:~ }} #=> ['a','b']
+                                                                                                                    modulo - remainder, e.g. {{ 3 | modulo:2 }} #=> 1
 
 
 <p> {{ site.date | date_to_string }} </p>
@@ -15,7 +61,7 @@ title: 技术路线
   2：脚本语言，Python
   3：胶水语言，Lua
   4：拓展语言，Go
-  
+
   理由：
   C: 这个老牌语言，牛逼了接近四十年，一定有其道理，毕业之后进入了一家嵌入式写Linux C的单位，
      认识其魅力 认识了Linux的魅力，流传下来的经典才是真的经典，就像五千年留下来的那些文学
@@ -36,7 +82,7 @@ title: 技术路线
   其他：
   web方面：PHP？  有待观察 如果是自己的项目， Nodejs也许可以考虑 html5？  也可以看看
 </pre>
- <h4>Hello World!</h4>
+<h4>Hello World!</h4>
 <pre>
 <code class="brush:cpp;">
 C:
